@@ -1,0 +1,254 @@
+body{
+    font-family: Verdana, Courier;	
+    background: #bdc3c7;
+
+}
+.title{
+    text-align:center;
+}
+.title p{
+font-size:17px;
+}
+.note{
+   width:200px;
+    margin-top:-300px;
+    margin-left:20px;
+    font-size:17px;
+
+}
+
+.frame{
+    
+    width:750px;
+    height: 500px;
+    background: #8b4513	;
+    margin:auto;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-around;
+    position:relative;
+    top:20px;
+    box-shadow: 0px 0px 15px  black;
+    border-radius:2%;
+
+}
+.top-shelf, .bottom-shelf{
+    width: 700px;
+    height:210px;
+    background:linear-gradient(180deg,#512815,#b35b32);
+    display:flex;
+    justify-content: space-between;
+}
+
+
+
+.spaces{
+ background:linear-gradient(180deg,#512815,#b35b32);
+   /* background:grey;*/
+
+    width:64px;
+    height:210px;
+
+}
+.spaces:hover{
+    cursor:pointer;
+    filter:brightness(0.7);
+}
+
+
+.cancel-btn{
+    width:20px;
+    height:20px;
+    position: relative;
+right:22px;
+    top:5px;
+}
+.new-space{
+  width:64px;
+height:210px;   
+display:flex;
+    position: relative;
+}
+.new-space:hover{
+    filter:brightness(1.5);
+    cursor:pointer;
+}
+.new-space .p-container{
+    font-size:10px;
+    transform: rotate(90deg);
+    height: 55px;
+    position:relative;
+    right:130px;
+    top:72px;
+}
+
+.new-space p {
+    display: block;
+    width: 150px;
+    font-weight:bold;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+form{
+    display: none;
+    width:300px;
+    height:400px;
+  background:#e27e36;
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    margin:auto;
+
+
+    
+}
+.form-container{
+    transform:translateY(8%);
+    display:flex;
+    flex-direction:column;
+}
+.form-container label{
+    margin:10px;
+    
+}
+
+
+.text-input{
+    margin-top:1px;
+    width:260px;
+    height:27px;
+    border-radius:3%;
+    font-size:18px;
+    display:block;
+  
+}
+
+
+#submit-btn{
+    width:80px;
+    height:30px;
+    position:absolute;
+    left:200px;
+    bottom:10px;
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.form-cancel-btn{
+     width:20px;
+    height:20px;
+    float:right;
+    margin-right:5px;
+    margin-top:5px;
+    cursor:pointer;
+}
+
+
+.read-status{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+     filter:brightness(0.8);
+    position:absolute;
+    top:177px;
+    left:5px;
+}
+.read-status:hover{
+    filter:brightness(0.5);
+}
+
+.book-info{
+         width:340px;
+    height:260px;
+    font-stretch: 10px;
+    background:  #e27e36;
+
+    border-radius:3%;
+    padding-left:10px;
+    margin:auto;
+    position:absolute;
+    right:0;
+    left:0;
+    bottom:0;
+    top:0;
+    overflow: hidden;
+}
+#info{
+    display: none;
+
+
+}
+.book-info p {
+    margin-bottom:1.1em;
+    font-size:18px;
+}
+
+
+.info-cancel-btn{
+    width:20px;
+    height:20px;
+    float:right;
+    margin-right:7px;
+    margin-top:7px;
+
+}
+.edit-btn{
+    width:80px;
+    height:30px;
+    margin:auto;
+    background-color: #e27e36;
+    border:2px solid black;
+    font-weight: bold;
+    float:right;
+    margin-right: 10px;
+    
+}
+
+#edit-book-btn{
+    position: absolute;
+    right:0;
+    bottom:10px;
+}
+
+
+
+.edit-btn:hover, .info-cancel-btn:hover {
+    cursor: pointer;
+}
+
+#edit{
+    display:none;
+}
+
+#edit p{
+    text-align: justify;
+    text-justify:inter-character;
+}
+
+#edit input{
+    height:25px;
+   
+}
+
+#mark-0{
+    display: none;
+    left:43px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

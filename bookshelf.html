@@ -1,0 +1,92 @@
+<html>
+    <head>
+    <title>BOOKSHELF</title>
+        <link href="bookshelf.css" rel="stylesheet" type="text/css">
+        
+    </head>
+    <body class="body">
+       
+    <main id="main">
+        
+      <div class="title">
+        <h2>BOOKSHELF</h2>
+        <p>Click on an empty space on the bookshelf to add a book</p>
+        </div>  
+
+      
+        <div class="frame">
+               <div class="top-shelf">
+                 <div class="spaces"></div> 
+                 <div class="spaces" ></div>   
+                 <div class="spaces"></div>   
+                 <div class="spaces"></div>  
+                 <div class="spaces"></div>  
+                 <div class="spaces"></div>  
+                 <div class="spaces"></div>  
+                 <div class="spaces"></div>  
+                 <div class="spaces"></div>   
+                 <div class="spaces"></div>   
+
+
+                </div>
+                <div class="bottom-shelf">
+                 <div class="spaces" ></div>  
+                 <div class="spaces" ></div>  
+                 <div class="spaces" ></div>  
+                 <div class="spaces" ></div>  
+                 <div class="spaces"></div>  
+                 <div class="spaces"></div>  
+                 <div class="spaces"></div>  
+                 <div class="spaces"></div>  
+                 <div class="spaces"></div>  
+                 <div class="spaces"></div>   
+
+                </div>
+          </div>
+
+        <p class="note"><b>Note:</b> click on a book to know about it</p>
+      
+        <form class="form" name="form">
+            <img class="form-cancel-btn" src="cancel icon.png">
+            <div class="form-container">
+                <label>Title:<input type="text" class = "text-input"  id="title-input" name="title"></label>
+                <label>Author:<input type="text" class = "text-input" id="author-input" name="author" ></label>
+                <label>Total no. of pages:<input type="text" class = "text-input"  id="pages-input" name="book pages"></label>
+                <label>No. of pages read:<input type="text" class = "text-input" id="pages-read-input" name="pages read"></label>
+            </div>
+            <input id="submit-btn"type="submit"value="submit">
+        </form>
+        
+         <div class="book-info" id="info">
+        <img class="info-cancel-btn" src="cancel icon.png">
+            <p class="title-info"><b>Title:</b> %title%</p>
+             <p class="author-info"><b>Author</b>: %author%</p>
+             <p class="pages-info"><b>Pages</b>: %pages%</p>
+             <p class="pages-read-info"><b>Pages read</b>: %pagesRead%</p>
+           <button class="edit-btn" id="edit-book-btn">Edit book</button>
+        </div>  
+    
+        <div class="book-info" id="edit">
+        <img class="info-cancel-btn" src="cancel icon.png">
+            <p>Title: <input type="text" class="title-edit"></p>
+             <p>Author: <input type="text" class="author-edit"></p>
+        <p>Pages: <input type="text" class="pages-edit"></html</p>
+    <p>Pages read: <input type="text" class="pages-read-edit"></p>
+           <button class="edit-btn" id="edit-done-btn">DONE</button>
+        </div>  
+        
+    <!-- adding book: <div class="new-space">
+        <img src="book-1.png">
+        <img class="cancel-btn" src="cancel icon.png">
+        <div class="p-container">
+            <p>Harry Potter (MJ Demarco)</p>
+        </div>
+            </div>    -->     
+        
+   <script src='bookshelf.js'></script>       
+    </main>
+           
+
+    </body>
+</html>
+      
